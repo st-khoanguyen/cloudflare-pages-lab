@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Supreme Tech Lab02</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fraunces:wght@300;500;700&family=Plus+Jakarta+Sans:wght@300;400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="background">
+      <span class="orb orb--amber"></span>
+      <span class="orb orb--mint"></span>
+      <span class="orb orb--rose"></span>
+      <span class="grid"></span>
+    </div>
+
+    <header class="topbar">
+      <div class="logo">ST</div>
+      <nav class="nav">
+        <a href="#features">Highlights</a>
+        <a href="#work">Work</a>
+        <a href="#pricing">Plans</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <button class="cta" id="ctaButton">Book a demo</button>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero__copy">
+          <p class="eyebrow">Lab02 / Migrate on Cloudflare</p>
+          <h1>
+            Build daring, lightning-fast web experiences for the teams that ship
+            weekly.
+          </h1>
+          <p class="lede">
+            Supreme Tech Studio crafts migration-ready sites with bold aesthetics,
+            measurable performance, and a stack tuned for Cloudflare delivery.
+          </p>
+          <div class="hero__actions">
+            <button class="cta cta--dark" id="primaryAction">Start a migration</button>
+            <button class="ghost" id="secondaryAction">See the playbook</button>
+          </div>
+          <div class="hero__stats">
+            <div>
+              <h3>45%</h3>
+              <span>Median speed boost</span>
+            </div>
+            <div>
+              <h3>3 weeks</h3>
+              <span>Average rollout</span>
+            </div>
+            <div>
+              <h3>99.98%</h3>
+              <span>Uptime targets</span>
+            </div>
+          </div>
+        </div>
+        <div class="hero__panel">
+          <div class="card">
+            <h2>Migration pulse</h2>
+            <p>Live signals from the edge delivery pipeline.</p>
+            <div class="pulse">
+              <span></span>
+              <span></span>
+              <span></span>
+              <span></span>
+            </div>
+            <div class="chip-row">
+              <span>Edge caching</span>
+              <span>RUM insights</span>
+              <span>Zero-downtime cutover</span>
+            </div>
+          </div>
+          <div class="card card--accent">
+            <h2>Cloudflare-ready</h2>
+            <p>
+              Static, serverless, or hybrid. We orchestrate the best deployment
+              path for your product teams.
+            </p>
+            <div class="meter">
+              <div class="meter__bar"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="features">
+        <div class="section__title">
+          <p>What we deliver</p>
+          <h2>Design that performs and platforms that scale.</h2>
+        </div>
+        <div class="feature-grid">
+          <article>
+            <h3>Migration studio</h3>
+            <p>
+              A structured sprint to replatform without losing your brand edge or
+              content history.
+            </p>
+          </article>
+          <article>
+            <h3>Performance art</h3>
+            <p>
+              Advanced caching, image pipelines, and critical-path budgets baked
+              into the build.
+            </p>
+          </article>
+          <article>
+            <h3>Edge analytics</h3>
+            <p>
+              Track audience behavior in real-time with dashboards tuned for
+              action.
+            </p>
+          </article>
+          <article>
+            <h3>Content velocity</h3>
+            <p>
+              Modular sections, rapid publishing workflows, and component systems
+              your team can own.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section section--split" id="work">
+        <div>
+          <h2>Recent work at the edge</h2>
+          <p>
+            We partner with product leaders who want frictionless deploys and
+            striking visuals. See how the story flows across every device.
+          </p>
+          <ul class="checklist">
+            <li>Multi-region rollouts with zero downtime</li>
+            <li>High-impact narrative and motion strategy</li>
+            <li>Accessibility-first UI systems</li>
+          </ul>
+        </div>
+        <div class="project-cards">
+          <div class="project">
+            <span>Atlas Commerce</span>
+            <h3>30% checkout lift</h3>
+          </div>
+          <div class="project">
+            <span>Signal Labs</span>
+            <h3>Edge-first documentation hub</h3>
+          </div>
+          <div class="project">
+            <span>Midnight Fleet</span>
+            <h3>Global launch in 18 days</h3>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" id="pricing">
+        <div class="pricing">
+          <div class="pricing__copy">
+            <h2>Pick the launch lane</h2>
+            <p>
+              Transparent engagements for startups to enterprise platform teams.
+              We can start with a pilot and scale to a full migration program.
+            </p>
+          </div>
+          <div class="pricing__cards">
+            <div class="price-card">
+              <h3>Launch</h3>
+              <p>For new static sites.</p>
+              <span class="price">$4.2k</span>
+              <button class="ghost">Schedule</button>
+            </div>
+            <div class="price-card price-card--featured">
+              <div class="badge">Popular</div>
+              <h3>Migrate</h3>
+              <p>Full replatform sprint.</p>
+              <span class="price">$12k</span>
+              <button class="cta">Reserve</button>
+            </div>
+            <div class="price-card">
+              <h3>Scale</h3>
+              <p>Multi-site rollout.</p>
+              <span class="price">Custom</span>
+              <button class="ghost">Talk to us</button>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section section--cta" id="contact">
+        <div>
+          <h2>Ready for a Cloudflare-grade glow-up?</h2>
+          <p>
+            Share your stack and goals. We will respond with a migration map
+            within 48 hours.
+          </p>
+        </div>
+        <form class="cta-form" id="contactForm">
+          <input type="text" name="name" placeholder="Your name" required />
+          <input type="email" name="email" placeholder="Work email" required />
+          <button class="cta cta--dark" type="submit">Send request</button>
+        </form>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <div>
+        <h3>Supreme Tech Studio</h3>
+        <p>Built for Lab02 migration workshop.</p>
+      </div>
+      <div class="footer__links">
+        <a href="#">Instagram</a>
+        <a href="#">Behance</a>
+        <a href="#">LinkedIn</a>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
